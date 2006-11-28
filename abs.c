@@ -6,6 +6,7 @@
  * step 4: check if the number is negative, multiple by -1
  * step 5: input number from user
  * step 6: write a function to calculate abs
+ * step 7: cleanup
  */
 
 #include <stdio.h>
@@ -19,17 +20,13 @@ int abs(int n)
 
 int main()
 {
-   //int n = -10;
    int n;
 
    printf("enter any number\n");
    scanf("%d", &n);
    
-   //printf("Hello World\n");
    printf("%d\n", n);
 
-   //if(n < 0)
-   //   n = n * -1;
    n = abs(n);
    printf("%d\n", n);
 
