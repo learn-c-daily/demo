@@ -2,13 +2,14 @@
  *
  * step 1: check hello world program 
  * step 2: try printing a number 
+ * step 3: print a negative number
  */
 
 #include <stdio.h>
 
 int main()
 {
-   int n = 10;
+   int n = -10;
    
    //printf("Hello World\n");
    printf("%d\n", n);
